@@ -1,0 +1,30 @@
+{
+  "name": "php-user-authentication",
+  "version": "1.0.0",
+  "description": "A simple MVC PHP application with user authentication",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "node-sass": "*"
+  },
+  "scripts": {
+    "sass": "node-sass -w -r ./src/assets/scss/ -o ./public/assets/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigmroberts/php-user-authentication.git"
+  },
+  "keywords": [
+    "php",
+    "mvc",
+    "oop"
+  ],
+  "author": "Craig M Roberts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craigmroberts/php-user-authentication/issues"
+  },
+  "homepage": "https://github.com/craigmroberts/php-user-authentication#readme"
+}

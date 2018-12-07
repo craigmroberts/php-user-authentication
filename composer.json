@@ -1,0 +1,26 @@
+{
+    "name": "php-user-authentication",
+    "type": "project",
+    "description": "A simple MVC PHP application with user authentication",
+    "keywords": ["php", "application", "mvc", "scratch", "php7", "oop", "model-view-controller", "object-oriented-programming", "mysql", "pdo", "web app"],
+    "homepage": "https://github.com/craigmroberts/php-user-authentication",
+    "license": "MIT",
+    "authors": [{
+        "name": "Craig M Roberts",
+        "homepage": "https://www.craigmroberts.com",
+        "role": "Developer"
+    }],
+    "support": {
+        "issues": "https://github.com/craigmroberts/php-user-authentication/issues",
+        "source": "https://github.com/craigmroberts/php-user-authentication"
+    },
+    "autoload": {
+        "classmap": ["src/"],
+        "files": ["config/credentials.php", "config/constants.php", "config/utility.php"]
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+    }
+}
