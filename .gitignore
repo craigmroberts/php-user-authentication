@@ -13,6 +13,10 @@
 *.sass-cache
 node_modules/
 vendor/
+src/assets/images/svg/icon/
+src/assets/images/svg/illustration/
+public/assets
+temp/
 .tmp/
 deployment-config.json
 config.codekit3

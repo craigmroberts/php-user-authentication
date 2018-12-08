@@ -1,6 +1,6 @@
   </main>
 
-  <script src="<?php echo $this->getScript('scripts'); ?>"></script>
+  <script src="<?=$this->getScript('App');?>"></script>
   </body>
 
 </html>

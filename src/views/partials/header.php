@@ -7,7 +7,9 @@
 
     <title><?= $this->pageTitle  . ' &mdash; ' . SITE_NAME; ?></title>
 
-    <link href="<?= $this->getStylesheet('main'); ?>" rel="stylesheet">
+    <link href="<?=$this->getStylesheet('styles');?>" rel="stylesheet">
+    <script src="<?=$this->getScript('Vendor');?>"></script>
+
 </head>
 
 <body>
