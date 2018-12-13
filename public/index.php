@@ -12,6 +12,7 @@
  * @since   December 7, 2018
  *
  */
+
 $root = __DIR__ . '/..';
 
 require $root . '/vendor/autoload.php';

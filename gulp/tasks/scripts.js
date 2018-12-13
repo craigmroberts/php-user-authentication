@@ -3,11 +3,15 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify');
 
     gulp.task('scripts', ['compileScripts'], function() {
-        return gulp.src(['./src/temp/assets/scripts/App.js', './src/temp/assets/scripts/Vendor.js'])
-            .pipe(uglify())
-            .pipe(gulp.dest('./public/assets/scripts/'));
+        return gulp.src([
+          'node_modules/jquery/dist/jquery.min.js',
+          'node_modules/bootstrap/dist/js/bootstrap.min.js',
+          './src/temp/assets/scripts/App.js',
+          './src/temp/assets/scripts/Vendor.js'
+        ])
+        .pipe(uglify())
+        .pipe(gulp.dest('./public/assets/scripts/'));
     });
-
 
   gulp.task('compileScripts',['modernizr'], function(callback) {
       webpack(require('../../webpack.config.js'),function(error, stats) {
